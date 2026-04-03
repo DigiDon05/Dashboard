@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Dashboard UI</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+  <body>
+    <div class="dashboard">
+      <!-- Sidebar -->
+      <div class="sidebar">
+        <h2>digiDon</h2>
+        <ul class="nav-menu">
+          <li>🏠 Home</li>
+          <li>📊 Analytics</li>
+          <li>📁 Projects</li>
+          <li>⚙️ Settings</li>
+        </ul>
+      </div>
+
+      <!-- Main -->
+      <div class="main">
+
+        <!-- Topbar -->
+        <div class="topbar">
+          <h2>Dashboard</h2>
+          <div class="profile">👤</div>
+        </div>
+
+        <!-- Cards -->
+        <div class="cards">
+          <div class="card">Users: 1.2K</div>
+          <div class="card">Revenue: $5K</div>
+          <div class="card">Projects: 24</div>
+        </div>
+
+        <!-- ✅ ADD CHART HERE -->
+        <div class="chart-container">
+          <canvas id="myChart"></canvas>
+        </div>
+
+      </div>
+    <script src="chart.js"></script>
+  </body>
+</html>
