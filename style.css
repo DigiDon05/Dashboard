@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: radial-gradient(circle at top left, #111, #000);
+  color: white;
+}
+
+/* Layout */
+.dashboard {
+  display: flex;
+  height: 100vh;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 220px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(12px);
+}
+
+.sidebar h2 {
+  margin-bottom: 20px;
+  color: #00ff9c;
+}
+
+.sidebar ul {
+  list-style: none;
+}
+
+.sidebar li {
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Hover */
+.sidebar li:hover {
+  background: rgba(0, 255, 156, 0.1);
+  color: #00ff9c;
+}
+
+/* Main */
+.main {
+  flex: 1;
+  padding: 20px;
+}
+
+/* Topbar */
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 10px;
+  border-radius: 50%;
+}
+
+/* Cards */
+.cards {
+  display: flex;
+  gap: 20px;
+}
+
+/* Card */
+.card {
+  flex: 1;
+  padding: 20px;
+  border-radius: 15px;
+
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(12px);
+
+  transition: 0.3s;
+}
+
+/* Hover animation */
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px #00ff9c;
+}
+.chart-container {
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 20px;
+
+  background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(12px);
+}
+.chart-container {
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 20px;
+
+  background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(12px);
+}
